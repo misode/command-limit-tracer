@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "command-limit-tracer",
+  "version": "${version}",
+  "name": "Command Limit Tracer",
+  "description": "Shows more debug information when reaching the command limit",
+  "authors": [
+    "Misode"
+  ],
+  "contact": {
+    "sources": "https://github.com/misode/command-limit-tracer",
+    "issues": "https://github.com/misode/command-limit-tracer/issues"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "command-limit-tracer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}

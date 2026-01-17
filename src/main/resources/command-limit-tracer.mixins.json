@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.misode.commandlimittracer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CallFunctionMixin",
+    "CommandQueueEntryMixin",
+    "ExecutionContextMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
